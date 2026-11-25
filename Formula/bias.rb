@@ -2,28 +2,28 @@
 class Bias < Formula
   desc "Command-line interface for the Bias payments API"
   homepage "https://biaspay.com/docs"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/BiasPay/cli/releases/download/v0.2.0/bias-aarch64-apple-darwin.tar.gz"
-      sha256 "a9f44d039f7ceca8a5c779d349c84a7e35cf367f030ae27c799abf22fda758ac"
+      url "https://github.com/BiasPay/cli/releases/download/v0.3.0/bias-aarch64-apple-darwin.tar.gz"
+      sha256 "153c1c5bcc4558647f966e0e76d2a3070becf280b666380e363faad93254bd42"
     end
     on_intel do
-      url "https://github.com/BiasPay/cli/releases/download/v0.2.0/bias-x86_64-apple-darwin.tar.gz"
-      sha256 "447282e424baed1f43135a88de7768d1f0fa176d6684b345b5e58fec3293cc57"
+      url "https://github.com/BiasPay/cli/releases/download/v0.3.0/bias-x86_64-apple-darwin.tar.gz"
+      sha256 "84daab610db2376970490671cf0e12957916130086b3e04f44567c47b022a4d7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BiasPay/cli/releases/download/v0.2.0/bias-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7a05ff183a4aeb8b3f8599d51e88a387e030b0f01794efa368e38aeb705f9790"
+      url "https://github.com/BiasPay/cli/releases/download/v0.3.0/bias-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ee94d93e6cd3d3d74700e95a06f7222db06af0ddae8b77ae4a39af6079719757"
     end
     on_intel do
-      url "https://github.com/BiasPay/cli/releases/download/v0.2.0/bias-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4a664ce8368bb1ce9d196dad076475adbf18c76a59cc97b9993e5bf8435dbe39"
+      url "https://github.com/BiasPay/cli/releases/download/v0.3.0/bias-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "91c35ae47668f9c6292abe96db40ddf44baffb36c7123f80f8f5007d00dfcba5"
     end
   end
 
